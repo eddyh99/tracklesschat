@@ -18,4 +18,14 @@ class Auth extends CI_Controller
 		);
 		$this->load->view('layout/wrapper', $data);
 	}
+
+	public function soon()
+	{
+		$data = array(
+			'title'     => 'Trackless Chat',
+			'content'   => 'home/soon',
+			// 'extra'     => 'home/js/js_index',
+		);
+		$this->load->view('layout/wrapper', $data);
+	}
 }

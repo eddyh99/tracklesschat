@@ -31,12 +31,12 @@
                         with your contacts through message, call & video call completely in secrecy</p>
                     <h1 class="text-green-gardient-trackless f-poppins mb-5">
                         Connectable with
-                        any wallet powered by <span>tracklessMoney<img class="question"
-                                src="<?= base_url(); ?>assets/images/question.png" alt="?" data-bs-toggle="modal"
-                                href="#exampleModalToggle" role="button"></span>
+                        any wallet powered by <span><img src="<?= base_url(); ?>assets/images/tracklessbankonly.png"
+                                alt=""><img class="question" src="<?= base_url(); ?>assets/images/question.png" alt="?"
+                                data-bs-toggle="modal" href="#exampleModalToggle" role="button"></span>
                     </h1>
 
-                    <a href="" class="btn-slchat f-poppins py-3 px-5">Download now</a>
+                    <a href="<?= base_url(); ?>auth/soon" class="btn-slchat f-poppins py-3 px-5">Download now</a>
                 </div>
             </div>
             <div class="col-lg-6 d-none d-sm-none d-lg-inline">
@@ -97,7 +97,8 @@
                                 alt="tracklesschat"></span>
                     </h2>
                     <p class="text-white m-0 f-poppins mb-5">ready to get started?</p>
-                    <a href="#" class="btn btn-learn text-green f-poppins py-2 px-4">Download now </a>
+                    <a href="<?= base_url(); ?>auth/soon" class="btn btn-learn text-green f-poppins py-2 px-4">Download
+                        now </a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -150,10 +151,10 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex flex-wrap justify-content-end footer-menus text-white" translate="no">
+        <div class="d-flex flex-wrap justify-content-end footer-menus" translate="no">
             <a href="https://tracklessproject.com" class="">TracklessProject</a> |
-            <a href="https://tracklessmail.com">TracklessMail</a> |
-            <a href="https://tracklesschat.com" class="active">TracklessChat</a> |
+            <a href="https://tracklessmail.com" class="active">TracklessMail</a> |
+            <a href="https://tracklesschat.com" class="">TracklessChat</a> |
             <a href="https://tracklesscompany.com" class="">TracklessCompany</a> |
             <a href="https://tracklessbank.com" class="">TracklessBank</a> |
             <a href="https://tracklesscrypto.com" class="">TracklessCrypto</a> |
@@ -177,8 +178,15 @@
                 </button>
             </div>
             <div class="modal-body text-center">
-                <img src="<?= base_url() ?>assets/images/magnify.png" alt="logo" class="sponsor-modal my-3 mx-3">
-                <img src="<?= base_url() ?>assets/images/piggylogo.png" alt="logo" class="sponsor-modal my-3 mx-3">
+                <a class="text-decoration-none" href="#">
+                    <img src="<?= base_url() ?>assets/images/magnify.png" alt="logo" class="sponsor-modal my-3 mx-3">
+                </a>
+                <a class="text-decoration-none" href="#">
+                    <img src="<?= base_url() ?>assets/images/piggylogo.png" alt="logo" class="sponsor-modal my-3 mx-3">
+                </a>
+                <a class="text-decoration-none" href="http://freedybank.com">
+                    <img src="<?= base_url() ?>assets/images/freedy.png" alt="logo" class="sponsor-modal my-3 mx-3">
+                </a>
             </div>
         </div>
     </div>
