@@ -13001,8 +13001,8 @@ footer a:focus {
 
   .text-green-gardient-trackless .question {
     position: absolute;
-    right: -13%;
-    bottom: 25%;
+    right: -10%;
+    bottom: 30%;
     height: 25px;
     cursor: pointer;
   }
@@ -13321,7 +13321,7 @@ footer a:focus {
   /* Chat */
 
   .sponsor-modal {
-    height: 150px;
+    height: 125px;
   }
 
   .text-header-trackleschat {
@@ -13373,8 +13373,8 @@ footer a:focus {
 
   .text-green-gardient-trackless .question {
     position: absolute;
-    right: -13%;
-    bottom: 25%;
+    right: -10%;
+    bottom: 30%;
     height: 25px;
     cursor: pointer;
   }
@@ -14083,7 +14083,7 @@ footer a:focus {
 
   /* Chat */
   .sponsor-modal {
-    height: 200px;
+    height: 150px;
   }
 
   .text-header-trackleschat {
@@ -14134,7 +14134,7 @@ footer a:focus {
 
   .text-green-gardient-trackless .question {
     position: absolute;
-    right: -13%;
+    right: -20%;
     bottom: 25%;
     height: 45px;
     cursor: pointer;
@@ -14478,7 +14478,7 @@ footer a:focus {
 
   .text-green-gardient-trackless .question {
     position: absolute;
-    right: -13%;
+    right: -20%;
     bottom: 25%;
     height: 45px;
     cursor: pointer;
