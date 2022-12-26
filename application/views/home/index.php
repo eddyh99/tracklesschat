@@ -31,7 +31,7 @@
                         with your contacts through message, call & video call completely in secrecy</p>
                     <h1 class="text-green-gardient-trackless f-poppins mb-5">
                         Connectable with
-                        any wallet powered by <span><img src="<?= base_url(); ?>assets/images/tracklessbankonly.png"
+                        any wallet powered by <span><img src="<?= base_url(); ?>assets/images/tracklessproject.png"
                                 alt=""><img class="question" src="<?= base_url(); ?>assets/images/question.png" alt="?"
                                 data-bs-toggle="modal" href="#exampleModalToggle" role="button"></span>
                     </h1>
