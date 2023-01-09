@@ -147,11 +147,7 @@
                 <div class="col-4">&nbsp;</div>
                 <div class="col-4 footer-contact">
                     <h2>Contact us</h2>
-                    <span>
-                        <a href="mailto:tracklesschat@tracklessmail.com" class="text-decoration-none">
-                            tracklesschat@tracklessmail.com
-                        </a>
-                    </span>
+                    <span>Telegramchanel</span>
                 </div>
             </div>
         </div>
@@ -166,32 +162,3 @@
         </div>
     </div>
 </footer>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
-    tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content modal-trackless">
-            <div class="modal-header border-0">
-                <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-x-lg" viewBox="0 0 16 16">
-                        <path
-                            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
-                    </svg>
-                </button>
-            </div>
-            <div class="modal-body text-center">
-                <a class="text-decoration-none" href="#">
-                    <img src="<?= base_url() ?>assets/images/magnify.png" alt="logo" class="sponsor-modal my-3 mx-3">
-                </a>
-                <a class="text-decoration-none" href="#">
-                    <img src="<?= base_url() ?>assets/images/piggylogo.png" alt="logo" class="sponsor-modal my-3 mx-3">
-                </a>
-                <a class="text-decoration-none" href="http://freedybank.com">
-                    <img src="<?= base_url() ?>assets/images/freedy.png" alt="logo" class="sponsor-modal my-3 mx-3">
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
